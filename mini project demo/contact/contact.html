@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\Jason Britto\Desktop\mini project demo\contact\style5.css">
+	<script src="C:\Users\Jason Britto\Desktop\mini project demo\contact\script.js"></script>
+</head>
+<body>
+
+<section>
+  <div class="container"> 
+  
+    <form action=https://formspree.io/f/xbjqjkgq method="POST" id="my-form">
+      <br>
+      
+
+      <div class="form-group">
+        <br>
+
+        <h1 style="text-align: center; font-family: 'Brush Script MT', cursive;">Contact Form</h1>
+        <label for="firstName" style="font-family: 'Brush Script MT', cursive;" ><b>First Name</b></label>
+        <input type="text" id="firstName" name="firstName" autocomplete="off">
+      </div>
+
+      <div class="form-group">
+        <label for="latsName" style="font-family: 'Brush Script MT', cursive;"><b>Last Name</b></label>
+        <input type="text" id="lastName" name="lastName" autocomplete="off">
+      </div>
+
+      <div class="form-group">
+        <label for="email" style="font-family: 'Brush Script MT', cursive;"><b>Email</b></label>
+        <input type="email" id="email" name="email" autocomplete="off"  pattern="^[a-zA-Z0-9]+@gmail\.com$" required>
+      </div>
+
+      <div class="form-group" >
+        <label for="massage" style="font-family: 'Brush Script MT', cursive;"><b>Message</b></label>
+        <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+      </div>
+
+      <button type="submit" style="color: black;font-family: 'Brush Script MT', cursive;" ><b>Submit</b></button>
+    </form>
+  </section>
+  
+
+</body>
+</html>
